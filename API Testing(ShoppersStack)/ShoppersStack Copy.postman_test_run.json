@@ -1,0 +1,955 @@
+{
+	"id": "3af9d79f-3dbb-4e04-bbc9-eaf63cdd0504",
+	"name": "ShoppersStack Copy",
+	"timestamp": "2025-01-16T16:32:48.383Z",
+	"collection_id": "19963597-f7b77931-4cff-4e9d-b802-f5f336412710",
+	"folder_id": 0,
+	"environment_id": "19963597-95d4d9fb-2a22-49b6-94c4-5a46f4e65a05",
+	"totalPass": 68,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-01-16T16:32:37.240Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f405e70c-59e9-437c-83be-5cf54ad19eda",
+			"name": "shopperLogin",
+			"url": "https://www.shoppersstack.com/shopping/users/login",
+			"time": 1254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 2000ms": true,
+				"Role": true,
+				"emailID": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Role": {
+					"pass": 1,
+					"fail": 0
+				},
+				"emailID": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1254
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 2000ms": true,
+					"Role": true,
+					"emailID": true
+				}
+			]
+		},
+		{
+			"id": "409681c4-4f64-468e-94e4-199621b45c66",
+			"name": "fetchDefaultProducts",
+			"url": "https://www.shoppersstack.com/shopping/products/alpha?zoneId=ALPHA",
+			"time": 1222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 10s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 10s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1222
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 10s": true
+				}
+			]
+		},
+		{
+			"id": "14e1a1eb-2bea-42a3-9fd5-be7b1d9ca2a3",
+			"name": "fetchAllProducts",
+			"url": "https://www.shoppersstack.com/shopping/products?zoneId=ALPHA",
+			"time": 843,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				843
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "65d83769-b243-4be6-ab3d-32403f4a5a8c",
+			"name": "addProductToWishlist",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/wishlist",
+			"time": 206,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has Created": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Created": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has Created": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "95283da6-9a8c-49ba-8561-7e696139ba95",
+			"name": "getProductsFromWishlist",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/wishlist",
+			"time": 198,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				198
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "f832a2a8-bc56-439c-97c6-07711ab68547",
+			"name": "deleteProductFromWishlist",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/wishlist/18",
+			"time": 207,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Status code name has No Content": true,
+				"Response time is less than 5000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has No Content": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				207
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Status code name has No Content": true,
+					"Response time is less than 5000ms": true
+				}
+			]
+		},
+		{
+			"id": "fc36d2a2-64a2-4be6-aa18-dcf000dabb03",
+			"name": "addProductToCart",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/carts",
+			"time": 201,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has Created": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Created": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				201
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has Created": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "d8fe5428-7709-48e9-8b56-3ead6d14f156",
+			"name": "getProductsFromCart",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/carts",
+			"time": 199,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				199
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "25c4e742-6343-4a70-bcf8-786d6ae0e724",
+			"name": "updateProductInCart",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/carts/255254",
+			"time": 202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "84462f32-4659-41b9-bbef-2fafc4267211",
+			"name": "getAllAddresses",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/address",
+			"time": 196,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				196
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "a17c00c8-ea8a-4f77-89ba-0689443c1882",
+			"name": "addAddress",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/address",
+			"time": 200,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has Created": true,
+				"Response time is less than 5s": true,
+				"Type of Address": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Created": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of Address": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				200
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has Created": true,
+					"Response time is less than 5s": true,
+					"Type of Address": true
+				}
+			]
+		},
+		{
+			"id": "48552b40-fed9-4005-88a6-30976b88a52f",
+			"name": "getAddressById",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/address/99865",
+			"time": 197,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				197
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "3f2fefe5-1ee6-458e-993b-a93c46474945",
+			"name": "updateAddress",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/address/99865",
+			"time": 201,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true,
+				"Building Info": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Building Info": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				201
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true,
+					"Building Info": true
+				}
+			]
+		},
+		{
+			"id": "edef295e-7a9b-4610-b1ee-b44c4b4b583e",
+			"name": "getOrder",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/orders",
+			"time": 362,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				362
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "e9326176-09e3-4b96-864e-6cd3bbcb7f6e",
+			"name": "addOrderFromCart",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/orders",
+			"time": 247,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name has Created": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has Created": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				247
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name has Created": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "ecb9dc08-c52c-473f-bbdb-53f63d55c274",
+			"name": "updateOrderDetailsToDelivered",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/orders/35949?status=DELIVERED",
+			"time": 234,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "ed9e9468-a9f6-4fa3-beaf-8a35b46d4ca1",
+			"name": "getInvoiceCopy",
+			"url": "https://www.shoppersstack.com/shopping/shoppers/156599/orders/35949/invoice",
+			"time": 270,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				270
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "da1c5637-f473-4354-9c6f-cc462683f8a1",
+			"name": "addReviewToDeliveredProduct",
+			"url": "https://www.shoppersstack.com/shopping/reviews?productId=18",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				263
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "f521bbcc-58db-4340-a809-bac52389895e",
+			"name": "getAllReviewsOfProduct",
+			"url": "https://www.shoppersstack.com/shopping/reviews/18",
+			"time": 296,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				296
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "921d23b2-54b5-4748-9cfc-b7cb208ac436",
+			"name": "updateAddedReview",
+			"url": "https://www.shoppersstack.com/shopping/reviews/15707?productId=18",
+			"time": 354,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				354
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true
+				}
+			]
+		},
+		{
+			"id": "cc31a8cb-dbe3-48d8-9ac7-906e057dd170",
+			"name": "deleteReview",
+			"url": "https://www.shoppersstack.com/shopping/reviews/15707?productId=18",
+			"time": 255,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has OK": true,
+				"Response time is less than 5s": true,
+				"Review Deleted": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5s": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Review Deleted": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				255
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has OK": true,
+					"Response time is less than 5s": true,
+					"Review Deleted": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 7607,
+	"collection": {
+		"requests": [
+			{
+				"id": "f405e70c-59e9-437c-83be-5cf54ad19eda",
+				"method": "POST"
+			},
+			{
+				"id": "409681c4-4f64-468e-94e4-199621b45c66",
+				"method": "GET"
+			},
+			{
+				"id": "14e1a1eb-2bea-42a3-9fd5-be7b1d9ca2a3",
+				"method": "GET"
+			},
+			{
+				"id": "65d83769-b243-4be6-ab3d-32403f4a5a8c",
+				"method": "POST"
+			},
+			{
+				"id": "95283da6-9a8c-49ba-8561-7e696139ba95",
+				"method": "GET"
+			},
+			{
+				"id": "f832a2a8-bc56-439c-97c6-07711ab68547",
+				"method": "DELETE"
+			},
+			{
+				"id": "fc36d2a2-64a2-4be6-aa18-dcf000dabb03",
+				"method": "POST"
+			},
+			{
+				"id": "d8fe5428-7709-48e9-8b56-3ead6d14f156",
+				"method": "GET"
+			},
+			{
+				"id": "25c4e742-6343-4a70-bcf8-786d6ae0e724",
+				"method": "PUT"
+			},
+			{
+				"id": "84462f32-4659-41b9-bbef-2fafc4267211",
+				"method": "GET"
+			},
+			{
+				"id": "a17c00c8-ea8a-4f77-89ba-0689443c1882",
+				"method": "POST"
+			},
+			{
+				"id": "48552b40-fed9-4005-88a6-30976b88a52f",
+				"method": "GET"
+			},
+			{
+				"id": "3f2fefe5-1ee6-458e-993b-a93c46474945",
+				"method": "PUT"
+			},
+			{
+				"id": "edef295e-7a9b-4610-b1ee-b44c4b4b583e",
+				"method": "GET"
+			},
+			{
+				"id": "e9326176-09e3-4b96-864e-6cd3bbcb7f6e",
+				"method": "POST"
+			},
+			{
+				"id": "ecb9dc08-c52c-473f-bbdb-53f63d55c274",
+				"method": "PATCH"
+			},
+			{
+				"id": "ed9e9468-a9f6-4fa3-beaf-8a35b46d4ca1",
+				"method": "GET"
+			},
+			{
+				"id": "da1c5637-f473-4354-9c6f-cc462683f8a1",
+				"method": "POST"
+			},
+			{
+				"id": "f521bbcc-58db-4340-a809-bac52389895e",
+				"method": "GET"
+			},
+			{
+				"id": "921d23b2-54b5-4748-9cfc-b7cb208ac436",
+				"method": "PUT"
+			},
+			{
+				"id": "cc31a8cb-dbe3-48d8-9ac7-906e057dd170",
+				"method": "DELETE"
+			}
+		]
+	}
+}
