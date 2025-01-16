@@ -1,7 +1,8 @@
 #                              API Testing (ShoppersStack Swagger API)
 This repository contains test artifacts for the API Testing of the ShoppersStack project, an e-commerce web application. 
 The focus of this testing effort has been on the below modules:
-Modules:-
+
+### Modules:-
 •	Shopper Login
 •	View Product
 •	Wishlist
