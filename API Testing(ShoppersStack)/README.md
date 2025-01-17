@@ -13,8 +13,9 @@ The focus of this testing effort has been on the below modules:
 
 #### Tools used:-
 -	Postman API
+-	Newman Report Generator
 
-Collection and Environment JSON files are added.
+Collection, Environment and Test Run JSON files are added.
 
 The repository includes test cases, test execution reports and test metrics to effectively plan, execute, and track the testing activities for the ShoppersStack application.
 
