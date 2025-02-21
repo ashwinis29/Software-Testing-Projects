@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AutomationTesting" class="navigator-link">
+              <span class="suite-name border-failed">AutomationTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AutomationTesting" class="navigator-link ">
+                    <span>C:\Users\hp\eclipse-workspace\QAAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AutomationTesting" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AutomationTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AutomationTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AutomationTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AutomationTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AutomationTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 4 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AutomationTesting" class="hide-methods failed suite-AutomationTesting"> (hide)</a> <!-- hide-methods failed suite-AutomationTesting -->
+                      <a href="#" panel-name="suite-AutomationTesting" class="show-methods failed suite-AutomationTesting"> (show)</a> <!-- show-methods failed suite-AutomationTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-AutomationTesting">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyFacebookFeature">verifyFacebookFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLinkedinFeature">verifyLinkedinFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyRememberMeFunctionality">verifyRememberMeFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyTwitterFeature">verifyTwitterFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AutomationTesting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutomationTesting" class="hide-methods passed suite-AutomationTesting"> (hide)</a> <!-- hide-methods passed suite-AutomationTesting -->
+                      <a href="#" panel-name="suite-AutomationTesting" class="show-methods passed suite-AutomationTesting"> (show)</a> <!-- show-methods passed suite-AutomationTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-AutomationTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.AmountTest" class="method navigator-link" hash-for-method="verifyAmountSorting">verifyAmountSorting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginPage">verifyLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithAnyUnAndPwd(admin, admin123)">verifyLoginWithAnyUnAndPwd(admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithAnyUnAndPwd(@67, F)">verifyLoginWithAnyUnAndPwd(@67, F)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithAnyUnAndPwd(un, pass1)">verifyLoginWithAnyUnAndPwd(un, pass1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithAnyUnAndPwd(ad, 67)">verifyLoginWithAnyUnAndPwd(ad, 67)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithEmptyCredentials">verifyLoginWithEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithEmptyPassword">verifyLoginWithEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithEmptyUsername">verifyLoginWithEmptyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTesting" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials">verifyLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutomationTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomationTesting" class="panel AutomationTesting">
+          <div class="suite-AutomationTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testscripts.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacebookFeature">
+                  </a> <!-- verifyFacebookFeature -->
+                  <span class="method-name">verifyFacebookFeature</span>
+                  <div class="stack-trace">java.lang.AssertionError: Not redirected to facebook page expected [https://facebook.com/] but found [https://sakshingp.github.io/assignment/login.html#]
+	at testscripts.LoginTest.verifyFacebookFeature(LoginTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 09: Verify facebook functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinkedinFeature">
+                  </a> <!-- verifyLinkedinFeature -->
+                  <span class="method-name">verifyLinkedinFeature</span>
+                  <div class="stack-trace">java.lang.AssertionError: Not redirected to linkedin page expected [https://x.com/] but found [https://sakshingp.github.io/assignment/login.html#]
+	at testscripts.LoginTest.verifyLinkedinFeature(LoginTest.java:142)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 10: Verify Linkedkin functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRememberMeFunctionality">
+                  </a> <!-- verifyRememberMeFunctionality -->
+                  <span class="method-name">verifyRememberMeFunctionality</span>
+                  <div class="stack-trace">java.lang.AssertionError: User is not logged in after reopening the browser with &apos;Remember Me&apos; enabled expected [https://sakshingp.github.io/assignment/home.html] but found [https://sakshingp.github.io/assignment/login.html]
+	at testscripts.LoginTest.verifyRememberMeFunctionality(LoginTest.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 07: Verify remember me feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTwitterFeature">
+                  </a> <!-- verifyTwitterFeature -->
+                  <span class="method-name">verifyTwitterFeature</span>
+                  <div class="stack-trace">java.lang.AssertionError: Not redirected to twitter page expected [https://x.com/] but found [https://sakshingp.github.io/assignment/login.html#]
+	at testscripts.LoginTest.verifyTwitterFeature(LoginTest.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 08: Verify twitter functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTesting-class-failed -->
+          <div class="suite-AutomationTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.AmountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAmountSorting">
+                  </a> <!-- verifyAmountSorting -->
+                  <span class="method-name">verifyAmountSorting</span>
+                  <em>
+(Test Case 01: Verify amount column is sorted successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTesting-class-passed -->
+          <div class="suite-AutomationTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPage">
+                  </a> <!-- verifyLoginPage -->
+                  <span class="method-name">verifyLoginPage</span>
+                  <em>
+(Test Case 01: Verify login page is loaded successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithAnyUnAndPwd(admin, admin123)">
+                  </a> <!-- verifyLoginWithAnyUnAndPwd(admin, admin123) -->
+                  <span class="method-name">verifyLoginWithAnyUnAndPwd</span>
+                  <span class="parameters">(admin,admin123)</span>
+                  <em>
+(Test Case 03: Verify user is able to login with any username and password credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithAnyUnAndPwd(@67, F)">
+                  </a> <!-- verifyLoginWithAnyUnAndPwd(@67, F) -->
+                  <span class="method-name">verifyLoginWithAnyUnAndPwd</span>
+                  <span class="parameters">(@67,F)</span>
+                  <em>
+(Test Case 03: Verify user is able to login with any username and password credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithAnyUnAndPwd(un, pass1)">
+                  </a> <!-- verifyLoginWithAnyUnAndPwd(un, pass1) -->
+                  <span class="method-name">verifyLoginWithAnyUnAndPwd</span>
+                  <span class="parameters">(un,pass1)</span>
+                  <em>
+(Test Case 03: Verify user is able to login with any username and password credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithAnyUnAndPwd(ad, 67)">
+                  </a> <!-- verifyLoginWithAnyUnAndPwd(ad, 67) -->
+                  <span class="method-name">verifyLoginWithAnyUnAndPwd</span>
+                  <span class="parameters">(ad,67)</span>
+                  <em>
+(Test Case 03: Verify user is able to login with any username and password credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithEmptyCredentials">
+                  </a> <!-- verifyLoginWithEmptyCredentials -->
+                  <span class="method-name">verifyLoginWithEmptyCredentials</span>
+                  <em>
+(Test Case 04: Verify user is unable to login with empty credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithEmptyPassword">
+                  </a> <!-- verifyLoginWithEmptyPassword -->
+                  <span class="method-name">verifyLoginWithEmptyPassword</span>
+                  <em>
+(Test Case 06: Verify user is able to login with empty password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithEmptyUsername">
+                  </a> <!-- verifyLoginWithEmptyUsername -->
+                  <span class="method-name">verifyLoginWithEmptyUsername</span>
+                  <em>
+(Test Case 05: Verify user is unable to login with empty username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials">
+                  </a> <!-- verifyLoginWithValidCredentials -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                  <em>
+(Test Case 02: Verify user is able to login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTesting-class-passed -->
+        </div> <!-- panel AutomationTesting -->
+        <div panel-name="test-xml-AutomationTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\eclipse-workspace\QAAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AutomationTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;automation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscripts.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testscripts.AmountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- automation --&gt;
+&lt;/suite&gt; &lt;!-- AutomationTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomationTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomationTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">automation (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomationTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomationTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomationTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomationTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomationTesting');
+function tableData_AutomationTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRememberMeFunctionality')
+data.setCell(0, 2, 'testscripts.LoginTest')
+data.setCell(0, 3, 7494);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAmountSorting')
+data.setCell(1, 2, 'testscripts.AmountTest')
+data.setCell(1, 3, 1426);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginWithAnyUnAndPwd')
+data.setCell(2, 2, 'testscripts.LoginTest')
+data.setCell(2, 3, 1410);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginWithEmptyPassword')
+data.setCell(3, 2, 'testscripts.LoginTest')
+data.setCell(3, 3, 1349);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginWithAnyUnAndPwd')
+data.setCell(4, 2, 'testscripts.LoginTest')
+data.setCell(4, 3, 1308);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLoginWithValidCredentials')
+data.setCell(5, 2, 'testscripts.LoginTest')
+data.setCell(5, 3, 1116);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFacebookFeature')
+data.setCell(6, 2, 'testscripts.LoginTest')
+data.setCell(6, 3, 957);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLoginWithAnyUnAndPwd')
+data.setCell(7, 2, 'testscripts.LoginTest')
+data.setCell(7, 3, 863);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLoginWithAnyUnAndPwd')
+data.setCell(8, 2, 'testscripts.LoginTest')
+data.setCell(8, 3, 771);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyLoginWithEmptyUsername')
+data.setCell(9, 2, 'testscripts.LoginTest')
+data.setCell(9, 3, 729);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLoginWithEmptyCredentials')
+data.setCell(10, 2, 'testscripts.LoginTest')
+data.setCell(10, 3, 477);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyLinkedinFeature')
+data.setCell(11, 2, 'testscripts.LoginTest')
+data.setCell(11, 3, 273);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyTwitterFeature')
+data.setCell(12, 2, 'testscripts.LoginTest')
+data.setCell(12, 3, 197);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLoginPage')
+data.setCell(13, 2, 'testscripts.LoginTest')
+data.setCell(13, 3, 19);
+window.suiteTableData['AutomationTesting']= { tableData: data, tableDiv: 'times-div-AutomationTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-AutomationTesting">
+              </div> <!-- times-div-AutomationTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomationTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomationTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomationTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testscripts.AmountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownExtent</span>
+                <br/>
+                <span class="ignored-method-name">setupExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomationTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyFacebookFeature() throws java.lang.Throwable,java.lang.Throw...)</span>
+                <span class="method-start">607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyFacebookFeature</span>
+                <span class="method-start">7523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyFacebookFeature status=FAILURE method=LoginTest.verifyFacebookFeature()[pri:0...)</span>
+                <span class="method-start">8487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLinkedinFeature() throws java.lang.Throwable,java.lang.Throw...)</span>
+                <span class="method-start">12674 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLinkedinFeature</span>
+                <span class="method-start">15990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLinkedinFeature status=FAILURE method=LoginTest.verifyLinkedinFeature()[pri:0...)</span>
+                <span class="method-start">16266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginPage() throws java.lang.Throwable,java.lang.Throwable)</span>
+                <span class="method-start">17563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPage</span>
+                <span class="method-start">20587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginPage status=SUCCESS method=LoginTest.verifyLoginPage()[pri:0, instance:t...)</span>
+                <span class="method-start">20607 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) thro...)</span>
+                <span class="method-start">21423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithAnyUnAndPwd(un, pass1)</span>
+                <span class="method-start">24563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndP...)</span>
+                <span class="method-start">25981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) thro...)</span>
+                <span class="method-start">30419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithAnyUnAndPwd(ad, 67)</span>
+                <span class="method-start">35061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndP...)</span>
+                <span class="method-start">35928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) thro...)</span>
+                <span class="method-start">38025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithAnyUnAndPwd(@67, F)</span>
+                <span class="method-start">42778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndP...)</span>
+                <span class="method-start">43555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) thro...)</span>
+                <span class="method-start">46697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithAnyUnAndPwd(admin, admin123)</span>
+                <span class="method-start">50602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndP...)</span>
+                <span class="method-start">51928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithEmptyCredentials() throws java.lang.Throwable)</span>
+                <span class="method-start">53518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithEmptyCredentials</span>
+                <span class="method-start">57916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithEmptyCredentials status=SUCCESS method=LoginTest.verifyLoginWithEmpt...)</span>
+                <span class="method-start">58395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithEmptyPassword() throws java.lang.Throwable,java.lan...)</span>
+                <span class="method-start">59839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithEmptyPassword</span>
+                <span class="method-start">63075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithEmptyPassword status=SUCCESS method=LoginTest.verifyLoginWithEmptyPa...)</span>
+                <span class="method-start">64435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithEmptyUsername() throws java.lang.Throwable,java.lan...)</span>
+                <span class="method-start">65655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithEmptyUsername</span>
+                <span class="method-start">69004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithEmptyUsername status=SUCCESS method=LoginTest.verifyLoginWithEmptyUs...)</span>
+                <span class="method-start">69735 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyLoginWithValidCredentials() throws java.lang.Throwable,java....)</span>
+                <span class="method-start">72454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials</span>
+                <span class="method-start">75478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyLoginWithVali...)</span>
+                <span class="method-start">76596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyRememberMeFunctionality() throws java.lang.Throwable,java.la...)</span>
+                <span class="method-start">79181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyRememberMeFunctionality</span>
+                <span class="method-start">81582 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyRememberMeFunctionality status=FAILURE method=LoginTest.verifyRememberMeFunct...)</span>
+                <span class="method-start">89081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.LoginTest.verifyTwitterFeature() throws java.lang.Throwable,java.lang.Throwa...)</span>
+                <span class="method-start">90805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTwitterFeature</span>
+                <span class="method-start">93633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyTwitterFeature status=FAILURE method=LoginTest.verifyTwitterFeature()[pri:0, ...)</span>
+                <span class="method-start">93833 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.AmountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod(public void testscripts.AmountTest.verifyAmountSorting() throws java.lang.Throwable,java.lang.Throwa...)</span>
+                <span class="method-start">95790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAmountSorting</span>
+                <span class="method-start">98577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod([TestResult name=verifyAmountSorting status=SUCCESS method=AmountTest.verifyAmountSorting()[pri:0, i...)</span>
+                <span class="method-start">100005 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownExtent</span>
+                <span class="method-start">101022 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

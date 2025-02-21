@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationTesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="automation(failed)">
+    <classes>
+      <class name="testscripts.LoginTest">
+        <methods>
+          <include name="verifyLinkedinFeature"/>
+          <include name="setupExtent"/>
+          <include name="configBeforeMethod"/>
+          <include name="verifyRememberMeFunctionality"/>
+          <include name="verifyFacebookFeature"/>
+          <include name="tearDownExtent"/>
+          <include name="configAfterMethod"/>
+          <include name="verifyTwitterFeature"/>
+        </methods>
+      </class> <!-- testscripts.LoginTest -->
+    </classes>
+  </test> <!-- automation(failed) -->
+</suite> <!-- Failed suite [AutomationTesting] -->

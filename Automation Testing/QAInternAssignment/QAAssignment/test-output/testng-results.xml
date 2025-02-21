@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="10" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-12T17:27:21 IST" name="AutomationTesting" finished-at="2025-02-12T17:29:01 IST" duration-ms="100365">
+    <groups>
+    </groups>
+    <test started-at="2025-02-12T17:27:21 IST" name="automation" finished-at="2025-02-12T17:29:01 IST" duration-ms="100365">
+      <class name="testscripts.AmountTest">
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.AmountTest@303cf2ba]" started-at="2025-02-12T17:28:56 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:59 IST" duration-ms="2786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.AmountTest.verifyAmountSorting() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyAmountSorting()[pri:0, instance:testscripts.AmountTest@303cf2ba]" started-at="2025-02-12T17:28:59 IST" name="verifyAmountSorting" description="Test Case 01: Verify amount column is sorted successfully" finished-at="2025-02-12T17:29:01 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmountSorting -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.AmountTest@303cf2ba]" started-at="2025-02-12T17:29:01 IST" name="configAfterMethod" finished-at="2025-02-12T17:29:01 IST" duration-ms="904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAmountSorting status=SUCCESS method=AmountTest.verifyAmountSorting()[pri:0, instance:testscripts.AmountTest@303cf2ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+      </class> <!-- testscripts.AmountTest -->
+      <class name="testscripts.LoginTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:21 IST" name="setupExtent" finished-at="2025-02-12T17:27:21 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:21 IST" name="configBeforeMethod" finished-at="2025-02-12T17:27:28 IST" duration-ms="6915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyFacebookFeature() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyFacebookFeature()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:28 IST" name="verifyFacebookFeature" description="Test Case 09: Verify facebook functionality" finished-at="2025-02-12T17:27:29 IST" duration-ms="957" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not redirected to facebook page expected [https://facebook.com/] but found [https://sakshingp.github.io/assignment/login.html#]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not redirected to facebook page expected [https://facebook.com/] but found [https://sakshingp.github.io/assignment/login.html#]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testscripts.LoginTest.verifyFacebookFeature(LoginTest.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookFeature -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:29 IST" name="configAfterMethod" finished-at="2025-02-12T17:27:33 IST" duration-ms="4186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFacebookFeature status=FAILURE method=LoginTest.verifyFacebookFeature()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:33 IST" name="configBeforeMethod" finished-at="2025-02-12T17:27:37 IST" duration-ms="3316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLinkedinFeature() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLinkedinFeature()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:37 IST" name="verifyLinkedinFeature" description="Test Case 10: Verify Linkedkin functionality" finished-at="2025-02-12T17:27:37 IST" duration-ms="273" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not redirected to linkedin page expected [https://x.com/] but found [https://sakshingp.github.io/assignment/login.html#]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not redirected to linkedin page expected [https://x.com/] but found [https://sakshingp.github.io/assignment/login.html#]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testscripts.LoginTest.verifyLinkedinFeature(LoginTest.java:142)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinFeature -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:37 IST" name="configAfterMethod" finished-at="2025-02-12T17:27:38 IST" duration-ms="1296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLinkedinFeature status=FAILURE method=LoginTest.verifyLinkedinFeature()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:38 IST" name="configBeforeMethod" finished-at="2025-02-12T17:27:41 IST" duration-ms="3024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginPage() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginPage()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:41 IST" name="verifyLoginPage" description="Test Case 01: Verify login page is loaded successfully" finished-at="2025-02-12T17:27:41 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:41 IST" name="configAfterMethod" finished-at="2025-02-12T17:27:42 IST" duration-ms="793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPage status=SUCCESS method=LoginTest.verifyLoginPage()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:42 IST" name="configBeforeMethod" finished-at="2025-02-12T17:27:45 IST" duration-ms="3139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:45 IST" name="verifyLoginWithAnyUnAndPwd" description="Test Case 03: Verify user is able to login with any username and password credentials" data-provider="loginData" finished-at="2025-02-12T17:27:47 IST" duration-ms="1410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[un]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithAnyUnAndPwd -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:47 IST" name="configAfterMethod" finished-at="2025-02-12T17:27:51 IST" duration-ms="4437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:51 IST" name="configBeforeMethod" finished-at="2025-02-12T17:27:56 IST" duration-ms="4642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:56 IST" name="verifyLoginWithAnyUnAndPwd" description="Test Case 03: Verify user is able to login with any username and password credentials" data-provider="loginData" finished-at="2025-02-12T17:27:56 IST" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithAnyUnAndPwd -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:56 IST" name="configAfterMethod" finished-at="2025-02-12T17:27:59 IST" duration-ms="2096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:27:59 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:03 IST" duration-ms="4753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:03 IST" name="verifyLoginWithAnyUnAndPwd" description="Test Case 03: Verify user is able to login with any username and password credentials" data-provider="loginData" finished-at="2025-02-12T17:28:04 IST" duration-ms="771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@67]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithAnyUnAndPwd -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:04 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:07 IST" duration-ms="3142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:07 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:11 IST" duration-ms="3905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String) throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:11 IST" name="verifyLoginWithAnyUnAndPwd" description="Test Case 03: Verify user is able to login with any username and password credentials" data-provider="loginData" finished-at="2025-02-12T17:28:12 IST" duration-ms="1308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithAnyUnAndPwd -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:12 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:14 IST" duration-ms="1589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithAnyUnAndPwd status=SUCCESS method=LoginTest.verifyLoginWithAnyUnAndPwd(java.lang.String,java.lang.String)[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:14 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:18 IST" duration-ms="4398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithEmptyCredentials() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithEmptyCredentials()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:18 IST" name="verifyLoginWithEmptyCredentials" description="Test Case 04: Verify user is unable to login with empty credentials" finished-at="2025-02-12T17:28:19 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:19 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:20 IST" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithEmptyCredentials status=SUCCESS method=LoginTest.verifyLoginWithEmptyCredentials()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:20 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:24 IST" duration-ms="3236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithEmptyPassword() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithEmptyPassword()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:24 IST" name="verifyLoginWithEmptyPassword" description="Test Case 06: Verify user is able to login with empty password" finished-at="2025-02-12T17:28:25 IST" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithEmptyPassword -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:25 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:26 IST" duration-ms="1219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithEmptyPassword status=SUCCESS method=LoginTest.verifyLoginWithEmptyPassword()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:26 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:30 IST" duration-ms="3349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithEmptyUsername() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithEmptyUsername()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:30 IST" name="verifyLoginWithEmptyUsername" description="Test Case 05: Verify user is unable to login with empty username" finished-at="2025-02-12T17:28:30 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithEmptyUsername -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:30 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:33 IST" duration-ms="2717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithEmptyUsername status=SUCCESS method=LoginTest.verifyLoginWithEmptyUsername()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:33 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:36 IST" duration-ms="3024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyLoginWithValidCredentials() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:36 IST" name="verifyLoginWithValidCredentials" description="Test Case 02: Verify user is able to login with valid credentials" finished-at="2025-02-12T17:28:37 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:37 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:40 IST" duration-ms="2585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyLoginWithValidCredentials()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:40 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:42 IST" duration-ms="2401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyRememberMeFunctionality() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyRememberMeFunctionality()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:42 IST" name="verifyRememberMeFunctionality" description="Test Case 07: Verify remember me feature" finished-at="2025-02-12T17:28:50 IST" duration-ms="7494" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User is not logged in after reopening the browser with 'Remember Me' enabled expected [https://sakshingp.github.io/assignment/home.html] but found [https://sakshingp.github.io/assignment/login.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User is not logged in after reopening the browser with 'Remember Me' enabled expected [https://sakshingp.github.io/assignment/home.html] but found [https://sakshingp.github.io/assignment/login.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testscripts.LoginTest.verifyRememberMeFunctionality(LoginTest.java:111)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberMeFunctionality -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:50 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:51 IST" duration-ms="1722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRememberMeFunctionality status=FAILURE method=LoginTest.verifyRememberMeFunctionality()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:51 IST" name="configBeforeMethod" finished-at="2025-02-12T17:28:54 IST" duration-ms="2827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.LoginTest.verifyTwitterFeature() throws java.lang.Throwable,java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="verifyTwitterFeature()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:54 IST" name="verifyTwitterFeature" description="Test Case 08: Verify twitter functionality" finished-at="2025-02-12T17:28:54 IST" duration-ms="197" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not redirected to twitter page expected [https://x.com/] but found [https://sakshingp.github.io/assignment/login.html#]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not redirected to twitter page expected [https://x.com/] but found [https://sakshingp.github.io/assignment/login.html#]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testscripts.LoginTest.verifyTwitterFeature(LoginTest.java:122)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwitterFeature -->
+        <test-method is-config="true" signature="configAfterMethod(org.testng.ITestResult)[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:28:54 IST" name="configAfterMethod" finished-at="2025-02-12T17:28:56 IST" duration-ms="1948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTwitterFeature status=FAILURE method=LoginTest.verifyTwitterFeature()[pri:0, instance:testscripts.LoginTest@59402b8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:testscripts.LoginTest@59402b8f]" started-at="2025-02-12T17:29:02 IST" name="tearDownExtent" finished-at="2025-02-12T17:29:02 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- testscripts.LoginTest -->
+    </test> <!-- automation -->
+  </suite> <!-- AutomationTesting -->
+</testng-results>
